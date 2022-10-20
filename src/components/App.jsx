@@ -3,6 +3,8 @@ import Profile from './Profile/Profile';
 import user from '../user.json';
 
 // 2 завдання "Секція статистики"
+import Statistics from './Statistics/Statistics';
+import data from '../data.json';
 
 // 3 завдання "Список друзів"
 
@@ -10,12 +12,15 @@ import user from '../user.json';
 
 export const App = () => {
   return (
-    <Profile
-      username={user.username}
-      tag={user.tag}
-      location={user.location}
-      avatar={user.avatar}
-      stats={user.stats}
-    />
+    <>
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+      <Statistics title="Upload stats" stats={data} />
+    </>
   );
 };

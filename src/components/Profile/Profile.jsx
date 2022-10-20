@@ -3,7 +3,7 @@ import css from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className={css.main_section}>
+    <section className={css.main_section}>
       <div className={css.main_wrap}>
         <img className={css.main_img} src={avatar} alt="User avatar" />
         <p className={css.main_username}>{username}</p>
@@ -25,7 +25,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
           <span className={css.main_stats}>{stats.likes}</span>
         </li>
       </ul>
-    </div>
+    </section>
   );
 };
 
