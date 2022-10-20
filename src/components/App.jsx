@@ -1,6 +1,7 @@
 // 1 завдання "Профіль соціальної мережі"
-import { Profile } from './Profile/Profile';
+import Profile from './Profile/Profile';
 import user from '../user.json';
+
 // 2 завдання "Секція статистики"
 
 // 3 завдання "Список друзів"
