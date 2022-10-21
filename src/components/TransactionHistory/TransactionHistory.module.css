@@ -1,0 +1,28 @@
+.section {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 500px;
+
+  background-color: aliceblue;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.table {
+  width: 100%;
+}
+.body {
+  width: 100%;
+}
+.body:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.048);
+}
+.string_title {
+  font-size: 25px;
+}
+.string_box {
+  text-shadow: 0 1px 1px #2d20202a;
+  padding: 10px 20px;
+  text-align: center;
+}
