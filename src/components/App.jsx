@@ -15,7 +15,6 @@ import friends from '../friends.json';
 export const App = () => {
   return (
     <>
-      <FriendList friends={friends} />
       <Profile
         username={user.username}
         tag={user.tag}
@@ -24,6 +23,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
     </>
   );
 };

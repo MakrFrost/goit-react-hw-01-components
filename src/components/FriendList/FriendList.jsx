@@ -16,7 +16,7 @@ function FriendList({ friends }) {
           <li key={friend.id} className={css.item}>
             <span
               className={css.status}
-              style={friend.isOnline !== true ? isOnline : isOffline}
+              style={friend.isOnline !== true ? isOffline : isOnline}
             ></span>
             <img
               src={friend.avatar}
