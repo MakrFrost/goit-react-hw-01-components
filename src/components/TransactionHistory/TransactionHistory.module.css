@@ -8,6 +8,10 @@
   background-color: aliceblue;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.185);
+
+  box-shadow: 11px 9px 24px -9px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 11px 9px 24px -9px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 11px 9px 24px -9px rgba(0, 0, 0, 0.7);
 }
 .table {
   width: 100%;
