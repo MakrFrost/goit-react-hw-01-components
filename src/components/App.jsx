@@ -7,12 +7,15 @@ import Statistics from './Statistics/Statistics';
 import data from '../data.json';
 
 // 3 завдання "Список друзів"
+import FriendList from './FriendList/FriendList';
+import friends from '../friends.json';
 
 // 4 завдання "Історія транзакцій"
 
 export const App = () => {
   return (
     <>
+      <FriendList friends={friends} />
       <Profile
         username={user.username}
         tag={user.tag}

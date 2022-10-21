@@ -1,0 +1,26 @@
+.container {
+  margin-top: 50px;
+  width: 400px;
+  background-color: gray;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.status {
+  background-color: black;
+  color: aliceblue;
+}
+
+.isOnline {
+  width: 1000px;
+  border-radius: 50%;
+  background-color: rgb(255, 47, 47);
+  color: aqua;
+}
+.isOffline {
+  border-radius: 50%;
+  width: 1000px;
+  background-color: red;
+  color: blue;
+}
