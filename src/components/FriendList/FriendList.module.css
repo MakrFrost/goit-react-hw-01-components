@@ -1,26 +1,38 @@
 .container {
   margin-top: 50px;
   width: 400px;
-  background-color: gray;
 
   margin-left: auto;
   margin-right: auto;
 }
-
 .status {
-  background-color: black;
-  color: aliceblue;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.322);
 }
 
-.isOnline {
-  width: 1000px;
-  border-radius: 50%;
-  background-color: rgb(255, 47, 47);
-  color: aqua;
+.item {
+  margin: 20px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: rgba(207, 207, 207, 0.575);
+
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+
+  box-shadow: 11px 9px 24px -9px rgb(0 0 0 / 70%);
+  -webkit-box-shadow: 11px 9px 24px -9px rgb(0 0 0 / 70%);
+  -moz-box-shadow: 11px 9px 24px -9px rgba(0, 0, 0, 0.7);
 }
-.isOffline {
-  border-radius: 50%;
-  width: 1000px;
-  background-color: red;
-  color: blue;
+.img {
+  margin-left: 30px;
+}
+.name {
+  font-size: 30px;
+  margin-left: 100px;
 }
