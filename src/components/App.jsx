@@ -8,7 +8,6 @@ import data from '../data.json';
 
 // 3 завдання "Список друзів"
 import FriendList from './FriendList/FriendList';
-// import FriendListItem from './FriendListItem/FriendListItem';
 import friends from '../friends.json';
 
 // 4 завдання "Історія транзакцій"
@@ -27,7 +26,6 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
-
       <TransactionHistory transactions={transactions} />
     </>
   );
